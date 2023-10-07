@@ -22,7 +22,5 @@ int main(){
     for(int i = 0 ; i < n;i++) v[i] & (1 << se) ? num1 ^= v[i] : num2 ^= v[i];
     cout << num1 << " " << num2;
 
-
-    
     return 0;
 }
